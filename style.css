@@ -1,0 +1,486 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Hanken Grotesk', sans-serif;
+    text-decoration: none;
+}
+@media only screen and (min-width: 900px)
+{
+   .container-full
+   {
+      position: fixed;
+      left: 40%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+
+   }
+   .lado1
+   {
+      position: fixed;
+      background-image: linear-gradient(180deg,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+      width: 300px;
+      height: 400px;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+      border-radius: 50px;
+      z-index: 1;
+   }
+   .resultado
+   {
+      background-image: linear-gradient(180deg,hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+      border-radius: 60%;
+      display: flex;
+      position: absolute;
+      left: 50%;
+      top: 40%;
+      transform: translate(-50%,-50%);
+      width: 150px;
+      height: 150px;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+   }
+   #de100
+   {
+      position: absolute;
+      bottom: 30px;
+   }
+   .resultadotrue
+   {
+      font-size: 40px;
+      font-weight: 800;
+      color: white;
+   }
+   #de100
+   {
+      color: rgba(255, 255, 255, 0.63);
+   }
+   .TxtResultado
+   {
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%);
+      top:30px;
+      color: rgba(255, 255, 255, 0.87);
+      font-size: 20px;
+   }
+   .Parabenio
+   {
+      position: inherit;
+      margin: 5px;
+      bottom: 40px;
+      color:white;
+   }
+   #Great
+   {
+      margin: 20px;
+      font-size: 20px;
+      font-weight: 700;
+   }
+   .Summario
+   {
+      position: fixed;
+      width: 500px;
+      box-shadow: 2px -1px 22px -6px rgba(0,0,0,0.73);
+      -webkit-box-shadow: 2px -1px 22px -6px rgba(0,0,0,0.73);
+      -moz-box-shadow: 2px -1px 22px -6px rgba(0,0,0,0.73);
+      border-radius: 20px;
+      height: 400px;
+      bottom: -200px;
+      
+   }
+   .PadrãoSumario
+   {
+      flex-wrap: wrap;
+      position: relative;
+      margin: 9px;
+      right: -60%;
+      transform: translate(-50%);
+      width: 250px;
+      top: 60px;
+      padding: 10px;
+      border-radius: 5px;
+      align-items: center;
+      justify-content: flex-end; 
+   }
+   .ractiontext
+{ 
+position: absolute;
+left: 40px;
+bottom: 10px;
+}
+.reaction
+{
+   background-color: rgba(211, 55, 55, 0.158);
+}
+.memory
+{
+   background-color: rgba(208, 255, 0, 0.295);
+}
+
+.verbal
+{
+   background-color: rgba(0, 255, 21, 0.336);
+}
+.visual
+{
+   background-color: rgba(0, 17, 255, 0.212);
+}
+.baseicone
+{
+   position: absolute;
+}
+.porcentagem1
+{
+   position: relative;
+   left: 180px;
+   bottom: px;
+}
+.container-bttn
+{
+   display: flex;
+   position: absolute;
+   left: 60%;
+   transform: translate(-50%);
+   bottom: 20px;
+   text-decoration: none;
+   background-color: hsl(224, 30%, 27%);
+   width: 40%;
+   justify-content: center;
+   height: 50px;
+   align-items: center;
+   border-radius: 30px;
+   font-size: 20px;
+   color: white;
+}
+.container-bttn:hover
+{
+   background-image: linear-gradient(180deg,hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+#link
+{
+   color: inherit;
+}
+}
+
+   
+@media only screen and (min-width: 451px) and (max-width:900px){
+.container-full
+{
+   display: flex;
+   flex-wrap: wrap;
+}
+.lado1
+{
+      background-image: linear-gradient(180deg,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+      border-radius: 50px;
+      height: 330px;
+      width: 70%;
+      position: fixed;
+      left: 50%;
+      transform: translate(-50%);
+      top:40px;
+      z-index: 1;
+
+
+}
+.resultado
+{
+   position: absolute;
+   display: flex;
+   background-image: linear-gradient(180deg,hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+   width: 150px;
+   height: 150px;
+   border-radius: 60%;
+   align-items: center;
+   justify-content: center;
+   left: 50%;
+   transform: translate(-50%);
+}
+#Great
+{
+   color: white;
+   font-size: larger;
+
+}
+.TxtResultado
+{
+   text-align: center;
+   margin: 30px;
+   color: rgba(255, 255, 255, 0.637);
+   font-size: 20px;
+   font-weight: 700;
+}
+.Parabenio
+{
+position: relative;
+top: 50%;
+margin: 10px;
+color: rgba(255, 255, 255, 0.541);
+
+}
+#de100
+{
+   position: absolute;
+   bottom: 30px;
+   color: rgba(255, 255, 255, 0.637);
+   
+}
+.resultadotrue
+{
+   color: white;
+   font-size: 40px;
+   font-weight: 700;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%,-50%);
+}
+.Summario
+{
+   position: relative;
+   border-radius: 20px;
+   height: 350px;
+   width: 70%;
+   left: 50%;
+   transform: translate(-50%);
+   top: 318px;
+   box-shadow: 2px -1px 22px -6px rgba(0,0,0,0.73);
+   -webkit-box-shadow: 2px -1px 22px -6px rgba(0,0,0,0.73);
+   -moz-box-shadow: 2px -1px 22px -6px rgba(0,0,0,0.73);
+}
+.PadrãoSumario
+{
+   flex-wrap: wrap;
+   position: relative;
+   margin: 9px;
+   right: -50%;
+   transform: translate(-50%);
+   width: 250px;
+   top: 60px;
+   padding: 10px;
+   border-radius: 5px;
+   align-items: center;
+   justify-content: flex-end;
+}
+.porcentagem1
+{
+   position: relative;
+   left: 160px;
+   bottom: px;
+}
+.ractiontext
+{ 
+position: absolute;
+left: 40px;
+bottom: 10px;
+}
+.reaction
+{
+   background-color: rgba(211, 55, 55, 0.158);
+}
+.memory
+{
+   background-color: rgba(208, 255, 0, 0.295);
+}
+
+.verbal
+{
+   background-color: rgba(0, 255, 21, 0.336);
+}
+.visual
+{
+   background-color: rgba(0, 17, 255, 0.212);
+}
+.baseicone
+{
+   position: absolute;
+}
+#txtsumario
+{
+   display: none;
+}
+.container-bttn
+{
+   display: flex;
+   position: absolute;
+   left: 50%;
+   transform: translate(-50%);
+   bottom: 5%;
+   text-decoration: none;
+   background-color: hsl(224, 30%, 27%);
+   width: 40%;
+   justify-content: center;
+   height: 50px;
+   align-items: center;
+   border-radius: 30px;
+   font-size: 20px;
+   color: white;
+}
+#link
+{
+   color: inherit;
+}
+.container-bttn:hover
+{
+   background-image: linear-gradient(180deg,hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+
+}
+@media only screen and (max-width: 450px) {
+ .container-full
+ {
+ display: flex;
+ flex-wrap: wrap;
+ }
+ .lado1
+ {
+background-image: linear-gradient(180deg,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+height: 330px;
+ }
+.resultado
+{
+   position: absolute;
+   display: flex;
+   background-image: linear-gradient(180deg,hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+   width: 150px;
+   height: 150px;
+   border-radius: 60%;
+   align-items: center;
+   justify-content: center;
+   left: 50%;
+   transform: translate(-50%);
+   
+
+}
+.TxtResultado
+{
+   text-align: center;
+   margin: 30px;
+   color: rgba(255, 255, 255, 0.637);
+   font-size: 20px;
+   font-weight: 700;
+}
+.Parabenio
+{
+position: relative;
+top: 50%;
+margin: 10px;
+color: rgba(255, 255, 255, 0.637);
+
+}
+#de100
+{
+   position: absolute;
+   bottom: 30px;
+   color: rgba(255, 255, 255, 0.637);
+   
+}
+.resultadotrue
+{
+   color: white;
+   font-size: 40px;
+   font-weight: 700;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%,-50%);
+}
+#Great
+{
+   color: white;
+   font-size: 20px;
+}
+.Summario
+{
+   position:relative;
+   left: 50%;
+   top: 60px;
+   transform: translate(-50%);
+   
+}
+#txtsumario
+{
+position: absolute;
+top: -30px;
+right: 210px;
+font-weight: 800;
+}
+.PadrãoSumario
+{
+   flex-wrap: wrap;
+   position: relative;
+   margin: 9px;
+   right: -0px;
+   width: 250px;
+   padding: 10px;
+   border-radius: 5px;
+   align-items: center;
+   justify-content: flex-end;
+}
+.porcentagem1
+{
+   position: relative;
+   left: 160px;
+   bottom: px;
+}
+.ractiontext
+{ 
+position: absolute;
+left: 40px;
+bottom: 10px;
+}
+.reaction
+{
+   background-color: rgba(211, 55, 55, 0.158);
+}
+.memory
+{
+   background-color: rgba(208, 255, 0, 0.295);
+}
+
+.verbal
+{
+   background-color: rgba(0, 255, 21, 0.336);
+}
+.visual
+{
+   background-color: rgba(0, 17, 255, 0.212);
+}
+.baseicone
+{
+   position: absolute;
+}
+.container-bttn
+{
+   display: flex;
+   position: absolute;
+   left: 50%;
+   transform: translate(-50%);
+
+   text-decoration: none;
+   background-color: hsl(224, 30%, 27%);
+   width: 70%;
+   justify-content: center;
+   height: 50px;
+   align-items: center;
+   border-radius: 30px;
+   font-size: 20px;
+   color: white;
+}
+.container-bttn:hover
+{
+   background-image: linear-gradient(180deg,hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+#link
+{
+   color: inherit;
+}
+
+
+
+}
